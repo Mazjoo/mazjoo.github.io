@@ -1,0 +1,72 @@
+baseURL = "http://mazjoo.github.io"
+languageCode = "en-us"
+title = "正经的程序员"
+Subtitle = "烟开兰叶香风暖、岸夹桃花锦浪生"
+theme = "next"
+
+[Params]
+  Introduce = "Programmer & Architect"
+  Description = "博客 | 软件 | 架构 | JS | Python "
+  Keywords =  "博客,程序员,架构师,个人,思考,读书,笔记,技术,分享"
+  Subtitle = "烟开兰叶香风暖、岸夹桃花锦浪生"
+  Imglogo = "img/mazjoo.png"
+  AuthorImg = "img/mazjoo.png"
+  DateFormat = "2006-01-02"
+  YearFormat = "2006年"
+  MonthFormat = "01-02"
+  #BaiduStatsId = "0b07433b4ab8d587dae7d34e71973839"
+  #QQStatsId = "58416275"
+  Fancybox = true
+
+[Author]
+  Name = "mazj"
+
+[Params.Share]
+  Baidu = false
+
+[[Menu.Main]]
+  Name = "首页"
+  Pre = "home"
+  URL = "/"
+  Weight = 1
+[[Menu.Main]]
+  Name = "技术"
+  Pre = "code"
+  URL = "/categories/技术/"
+  Weight = 2
+[[Menu.Main]]
+  Name = "随想"
+  Pre = "tint"
+  URL = "/categories/随想/"
+  Weight = 3
+[[Menu.Main]]
+  Name = "参考"
+  Pre = "book"
+  URL = "/categories/参考/"
+  Weight = 4
+[[Menu.Main]]
+  Name = "杂记"
+  Pre = "leaf"
+  URL = "/categories/杂记/"
+  Weight = 5
+[[Menu.Main]]
+  Name = "归档"
+  Pre = "archive"
+  URL = "/post/"
+  Weight = 6
+[[Menu.Main]]
+  Name = "关于"
+  Pre = "user"
+  URL = "/about/"
+  Weight = 7
+
+[[Params.Socials]]
+  Name = "GitHub"
+  Icon = "github"
+  URL = "https://github.com/mazjoo/"
+
+[[Params.Socials]]
+  Name = "sf"
+  Icon = "globe"
+  URL = "https://www.zhihu.com/people/lan-ling-xin-yun"  
+
