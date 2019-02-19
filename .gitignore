@@ -1,0 +1,12 @@
+# webpack node_modules
+./themes/pipe/node_modules
+./themes/pipe/README-zh.md
+
+# 无关文件夹
+./resources
+
+# 无关配置
+./themes/yarn.lock
+
+# public文件夹
+./public
